@@ -70,8 +70,8 @@ export function App() {
             Join us for an evening of inspiration and generosity as we come
             together to support our community and create lasting change.
           </p>
-          <h2>  RSVP Now and receive </h2>
-        <h2 className="mb-6 text-2xl"> <strong>10 Duas and Hadiths to encompass all matters.</strong> </h2>
+          <h2 className="mb-1 text-xl">  RSVP Now and receive </h2>
+        <h2 className="mb-6 text-2xl"> <strong>10 Duas and Hadiths to Encompass All Matters.</strong> </h2>
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
             <RSVPForm />
