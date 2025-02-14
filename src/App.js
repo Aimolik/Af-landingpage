@@ -42,24 +42,24 @@ export function App() {
           >
             AbuBakr Foundation's
           </span>
-          <h1 className="text-5xl font-black mb-3 drop-shadow-lg">
+          <h1 className="text-5xl md:text-7xl font-black mb-3 drop-shadow-lg">
             7th
           </h1>
-          <h1 className=" font-black mb-6 drop-shadow-lg">
+          <h1 className="text-4xl md:text-5xl font-black mb-6 drop-shadow-lg">
             <span className="relative inline-block animate-title-shine">
               Annual Fundraising Banquet
             </span>
           </h1>
-          <div className="text-3xl flex flex-col md:flex-row justify-center gap-8 my-8">
+          <div className="flex flex-col md:flex-row justify-center gap-8 my-8 text-lg">
             <div className="flex items-center justify-center gap-2">
               <Calendar className="w-6 h-6" />
               <span>April 19, 2025</span>
             </div>
-            <div className="text-3xl flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2">
               <MapPin className="w-6 h-6" />
               <span>H.J.C. Bowden Senior Multipurpose Facility, East Point</span>
             </div>
-            <div className="text-3xl flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2">
               <Clock className="w-6 h-6" />
               <span>6:00 PM - 9:00 PM</span>
             </div>
@@ -68,6 +68,7 @@ export function App() {
             Join us for an evening of inspiration and generosity as we come
             together to support our community and create lasting change.
           </p>
+          <h2> RSVP Now and You'll Receive 10 Duas and Hadiths to encompass all matters. </h2>
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
             <RSVPForm />
