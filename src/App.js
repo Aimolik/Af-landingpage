@@ -49,16 +49,6 @@ export function App() {
             <span className="relative inline-block animate-title-shine">
               Annual Fundraising Banquet
             </span>
-            <p className="text-xl mb-6 max-w-2xl mx-auto">
-              Join us for an evening of inspiration and generosity as we come
-              together to support our community and create lasting change.
-            </p>
-            <h2 className="text-2xl mb-6"> RSVP Now and receive <strong>10 Duas and Hadiths to encompass all matters.</strong> </h2>
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
-              <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
-              <RSVPForm />
-            </div>
-            <hr></hr>
           </h1>
           <div className="flex flex-col md:flex-row justify-center gap-8 my-8">
             <div className="text-2xl flex items-center justify-center gap-2">
@@ -73,6 +63,16 @@ export function App() {
               <Clock className="w-6 h-6" />
               <span>6:00 PM - 9:00 PM</span>
             </div>
+            <hr></hr>
+          </div>
+          <p className="text-xl mb-6 max-w-2xl mx-auto">
+            Join us for an evening of inspiration and generosity as we come
+            together to support our community and create lasting change.
+          </p>
+          <h2 className="text-2xl mb-6"> RSVP Now and receive <strong>10 Duas and Hadiths to encompass all matters.</strong> </h2>
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+            <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
+            <RSVPForm />
           </div>
         </div>
       </div>
