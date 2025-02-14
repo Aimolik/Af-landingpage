@@ -54,15 +54,15 @@ export function App() {
           <div className="flex flex-col md:flex-row justify-center gap-8 my-8">
             <div className="text-2xl flex items-center justify-center gap-2">
               <Calendar className="w-6 h-6" />
-              <span>April 19, 2025</span>
+              <span><strong>April 19, 2025</strong></span>
             </div>
             <div className="text-2xl flex items-center justify-center gap-2">
               <MapPin className="w-6 h-6" />
-              <span>H.J.C. Bowden Senior Multipurpose Facility, East Point</span>
+              <span><strong>H.J.C. Bowden Senior Multipurpose Facility, East Point</strong></span>
             </div>
             <div className="text-2xl flex items-center justify-center gap-2">
               <Clock className="w-6 h-6" />
-              <span>6:00 PM - 9:00 PM</span>
+            <span><strong>6:00 PM - 9:00 PM</strong></span>
             </div>
             <hr></hr>
           </div>
