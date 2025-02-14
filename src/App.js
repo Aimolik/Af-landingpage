@@ -63,12 +63,14 @@ export function App() {
               <Clock className="w-6 h-6" />
               <span>6:00 PM - 9:00 PM</span>
             </div>
+            <hr></hr>
           </div>
           <p className="text-xl mb-12 max-w-2xl mx-auto">
             Join us for an evening of inspiration and generosity as we come
             together to support our community and create lasting change.
           </p>
-          <h2> RSVP Now and You'll Receive 10 Duas and Hadiths to encompass all matters. </h2>
+          <h2 className="font-bold"> RSVP Now and You'll Receive 10 Duas and Hadiths to encompass all matters. </h2>
+          <br></br>
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
             <RSVPForm />
