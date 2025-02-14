@@ -29,7 +29,7 @@ export function App() {
       <div className="relative z-10 w-full min-h-screen flex flex-col items-center justify-center px-4 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <span
-            className="block text-2xl md:text-3xl mb-4 font-normal bg-gradient-text"
+            className="block text-2xl mb-4 font-normal bg-gradient-text"
             style={{
               backgroundImage:
                 "linear-gradient(90deg, #4285f4, #ea4335, #fbbc05, #4285f4, #34a853, #ea4335)",
@@ -45,13 +45,23 @@ export function App() {
           <h1 className="text-5xl font-black mb-3 drop-shadow-lg">
             7th
           </h1>
-          <h1 className="text-4xlfont-black mb-6 drop-shadow-lg">
+          <h1 className="text-4xl font-black mb-6 drop-shadow-lg">
             <span className="relative inline-block animate-title-shine">
               Annual Fundraising Banquet
             </span>
+            <p className="text-xl mb-6 max-w-2xl mx-auto">
+              Join us for an evening of inspiration and generosity as we come
+              together to support our community and create lasting change.
+            </p>
+            <h2 className="text-2xl mb-6"> RSVP Now and receive <strong>10 Duas and Hadiths to encompass all matters.</strong> </h2>
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+              <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
+              <RSVPForm />
+            </div>
+            <hr></hr>
           </h1>
-          <div className="text-2xl flex flex-col md:flex-row justify-center gap-8 my-8">
-            <div className="flex items-center justify-center gap-2">
+          <div className="flex flex-col md:flex-row justify-center gap-8 my-8">
+            <div className="text-2xl flex items-center justify-center gap-2">
               <Calendar className="w-6 h-6" />
               <span>April 19, 2025</span>
             </div>
@@ -63,17 +73,6 @@ export function App() {
               <Clock className="w-6 h-6" />
               <span>6:00 PM - 9:00 PM</span>
             </div>
-            <hr></hr>
-          </div>
-          <p className="text-xl mb-12 max-w-2xl mx-auto">
-            Join us for an evening of inspiration and generosity as we come
-            together to support our community and create lasting change.
-          </p>
-          <h2 className="text-xl"> <strong>RSVP Now and receive 10 Duas and Hadiths to encompass all matters.</strong> </h2>
-          <br></br>
-          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
-            <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
-            <RSVPForm />
           </div>
         </div>
       </div>
