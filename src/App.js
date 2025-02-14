@@ -50,6 +50,7 @@ export function App() {
               Annual Fundraising Banquet
             </span>
           </h1>
+          <hr></hr>
           <div className="flex flex-col md:flex-row justify-center gap-8 my-8">
             <div className="text-2xl flex items-center justify-center gap-2">
               <Calendar className="w-6 h-6" />
@@ -69,7 +70,7 @@ export function App() {
             Join us for an evening of inspiration and generosity as we come
             together to support our community and create lasting change.
           </p>
-          <h2 className="text-2xl mb-6"> RSVP Now and receive <strong>10 Duas and Hadiths to encompass all matters.</strong> </h2>
+          <h2 className="text-xl mb-6"> RSVP Now and receive <strong><br></br>10 Duas and Hadiths to encompass all matters.</strong> </h2>
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
             <RSVPForm />
