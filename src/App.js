@@ -71,7 +71,7 @@ export function App() {
             together to support our community and create lasting change.
           </p>
           <h2 className="mb-3 text-xl">  RSVP Now and receive </h2>
-        <h2 className="mb-6 text-2xl text-green-500"> <strong>10 Duas and Hadiths to Encompass All Matters.</strong> </h2>
+        <h2 className="mb-6 text-2xl text-green-400"> <strong>10 Duas and Hadiths to Encompass All Matters.</strong> </h2>
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6">Reserve Your Seat</h2>
             <RSVPForm />
